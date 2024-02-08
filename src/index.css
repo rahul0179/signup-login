@@ -6,7 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background: rgba(1, 1, 185, 0.959);
+  background: rgb(159, 166, 176);
+  background: radial-gradient(
+    circle,
+    rgba(159, 166, 176, 1) 0%,
+    rgba(13, 24, 44, 1) 60%,
+    rgba(37, 54, 70, 1) 100%
+  );
 }
 
 code {
